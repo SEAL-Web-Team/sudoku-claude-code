@@ -1,0 +1,30 @@
+# Lightweight CI: verifies the quest blueprint folders exist.
+# Safe for repos with no application code yet.
+
+name: Repository structure
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  layout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check required directories
+        run: |
+          set -e
+          for d in \
+            docs/workshops docs/best-practices docs/examples \
+            tools/claude-integration tools/playwright-automation tools/development-workflow \
+            templates/project-starters templates/workshop-exercises \
+            resources/awesome-claude-code resources/seal-integration \
+            .github/workflows .github/templates .github/ISSUE_TEMPLATE
+          do
+            test -d "$d" || { echo "Missing: $d"; exit 1; }
+          done
+          echo "Layout OK."

@@ -6,19 +6,26 @@ This repository is a **beginner-oriented companion** for learning how to work **
 
 ## How to use this repo
 
-For this phase, treat the GitHub view as the **source of truth**: read the guides linked below in order (or jump to what you need). Each linked page is intended to stay a **short one-pager** so you can skim it quickly.
+Treat the GitHub view as the **source of truth**. **Start with the methodology index:** [`docs/best-practices/README.md`](docs/best-practices/README.md) (workflow, reading code, testing, automation, and Sheets guardrails). Workshop outlines live under [`docs/workshops/`](docs/workshops/README.md).
 
-- **Cloning / local setup** may be added later; it is not required to get value from the docs right now.
+**Cloning / local setup** may be added later; it is not required to get value from the docs right now.
 
----
+## Repository layout
 
-## Table of contents
+Scaffold from the Sudoku Claude Code quest blueprint (`sudoku-claude-code-2026` target naming on GitHub):
 
-| Guide | What it is for |
+| Path | Purpose |
 | --- | --- |
-| [Core workflow with Claude Code](docs/workflow.md) | The basic loop: understand → plan → change → check — without treating the AI as a magic compiler. |
-| [Navigating and reading code](docs/navigating-code.md) | How to explore a codebase you did not write, using Claude Code as a structured reader, not a guessing machine. |
-| [Testing mindset and habits](docs/testing.md) | Why “run something to prove it still works” matters, in any stack, when an AI is helping you edit. |
-| [Automation (lightweight)](docs/automation.md) | When to script or repeat a check instead of re-typing the same instructions to the tool. |
-
-If you are unsure where to start, read **Core workflow** first, then **Navigating and reading code**.
+| [`docs/workshops/`](docs/workshops/README.md) | Workshop modules (8-session outline) |
+| [`docs/best-practices/`](docs/best-practices/README.md) | Methodology index + deep-dives |
+| [`docs/examples/`](docs/examples/README.md) | Beginner samples (to be added) |
+| [`tools/claude-integration/`](tools/claude-integration/README.md) | MCP / API / editor integration notes |
+| [`tools/playwright-automation/`](tools/playwright-automation/README.md) | Browser automation (taskdeck-aligned) |
+| [`tools/development-workflow/`](tools/development-workflow/README.md) | Read → plan → fix → test helpers |
+| [`templates/project-starters/`](templates/project-starters/README.md) | Boilerplate for common tasks |
+| [`templates/workshop-exercises/`](templates/workshop-exercises/README.md) | Guided exercises |
+| [`resources/awesome-claude-code/`](resources/awesome-claude-code/README.md) | Curated external links |
+| [`resources/seal-integration/`](resources/seal-integration/README.md) | SEAL lab integration pointers |
+| [`.github/workflows/`](.github/workflows/repo-structure.yml) | CI (structure check for now) |
+| [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) | Issue templates |
+| [`.github/templates/`](.github/templates/README.md) | Supplementary template drafts |
