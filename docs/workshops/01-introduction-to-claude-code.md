@@ -16,4 +16,4 @@
 
 ## Links
 
-- [Core workflow](../workflow.md)
+- [Core workflow](../best-practices/workflow.md)

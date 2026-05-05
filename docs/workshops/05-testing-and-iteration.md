@@ -16,4 +16,4 @@
 
 ## Links
 
-- [Testing mindset and habits](../testing.md)
+- [Testing mindset and habits](../best-practices/testing.md)

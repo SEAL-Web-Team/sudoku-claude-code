@@ -16,4 +16,4 @@
 
 ## Links
 
-- [Navigating and reading code](../navigating-code.md)
+- [Navigating and reading code](../best-practices/navigating-code.md)
