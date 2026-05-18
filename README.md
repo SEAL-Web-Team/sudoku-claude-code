@@ -22,7 +22,7 @@ Use [`slash-commands/`](slash-commands/README.md): `/plan`, `/fix`, `/test`, `/r
 
 ## Repository layout (SEAL-approved beginner path)
 
-Curated from [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) — not a full mirror.
+Curated from [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code)
 
 | Path | Purpose |
 | --- | --- |
