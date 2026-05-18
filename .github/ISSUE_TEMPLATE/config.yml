@@ -1,0 +1,8 @@
+blank_issues: false
+contact_links:
+  - name: Onboarding guide
+    url: https://github.com/SEAL-Web-Team/sudoku-claude-code/blob/main/docs/onboarding.md
+    about: Start here if you are new to the workshop repo
+  - name: Awesome Claude Code (upstream)
+    url: https://github.com/hesreallyhim/awesome-claude-code
+    about: Full community catalogue (advanced)

@@ -1,6 +1,8 @@
 # Best practices (Claude Code methodology)
 
-Short guides that encode how we want Sudoku students to work with Claude Code. Core one-pagers live in [`docs/`](../); deeper or domain-specific notes live in this folder.
+Short guides that encode how we want Sudoku students to work with Claude Code. **New here?** [`beginner-track/README.md`](../../beginner-track/README.md) · [`docs/onboarding.md`](../onboarding.md)
+
+Core one-pagers live in [`docs/`](../); knowledge guides in [`knowledge-guides/`](../knowledge-guides/README.md).
 
 | Topic | Doc |
 | --- | --- |

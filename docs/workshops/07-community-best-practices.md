@@ -16,5 +16,7 @@
 
 ## Links
 
-- [Awesome Claude Code picks](../../resources/awesome-claude-code/README.md)
+- [Awesome Claude Code picks](../../resources/awesome-claude-code/PICKS.md)
+- [Beginner track](../../beginner-track/README.md)
+- [Security basics](../security/README.md)
 - [Sheets: minimal data ranges](../best-practices/sheets-minimal-data-ranges.md)

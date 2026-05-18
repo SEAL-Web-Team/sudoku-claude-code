@@ -1,31 +1,73 @@
 # Sudoku Claude Code
 
-This repository is a **beginner-oriented companion** for learning how to work **with Claude Code** (AI-assisted development): reading unfamiliar code, planning small changes, validating behavior, and automating repetitive steps. Content is **language-agnostic** for now; examples assume you can use Git but **have not** yet built a habit of pairing an AI coding tool with a disciplined workflow.
+Beginner-oriented workshop repository for SEAL Sudoku students learning **AI-assisted development** with Claude Code: read codebases, plan changes, implement fixes, and run tests.
 
 **Canonical repo:** [github.com/SEAL-Web-Team/sudoku-claude-code](https://github.com/SEAL-Web-Team/sudoku-claude-code)
 
-## How to use this repo
+**Quest:** P2 Sudoku Claude Code Repo 2026 — operational target June 1, 2026 (see team QO/YBR).
 
-Treat the GitHub view as the **source of truth**. **Start with the methodology index:** [`docs/best-practices/README.md`](docs/best-practices/README.md) (workflow, reading code, testing, automation, and Sheets guardrails). Workshop outlines live under [`docs/workshops/`](docs/workshops/README.md).
+## Start here
 
-**Cloning / local setup** may be added later; it is not required to get value from the docs right now.
+| Audience | First link |
+| --- | --- |
+| New student | [`docs/onboarding.md`](docs/onboarding.md) → [`beginner-track/README.md`](beginner-track/README.md) |
+| Returning contributor | [`docs/best-practices/README.md`](docs/best-practices/README.md) |
+| Facilitator | [`workshop-materials/README.md`](workshop-materials/README.md) |
 
-## Repository layout
+## Quest loop
 
-Scaffold from the Sudoku Claude Code quest blueprint (`sudoku-claude-code-2026` target naming on GitHub):
+> Read the codebase → propose a plan → write the fix → run tests
+
+Use [`slash-commands/`](slash-commands/README.md): `/plan`, `/fix`, `/test`, `/review`.
+
+## Repository layout (SEAL-approved beginner path)
+
+Curated from [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) — not a full mirror.
 
 | Path | Purpose |
 | --- | --- |
-| [`docs/workshops/`](docs/workshops/README.md) | Workshop modules (8-session outline) |
-| [`docs/best-practices/`](docs/best-practices/README.md) | Methodology index + deep-dives |
-| [`docs/examples/`](docs/examples/README.md) | Beginner samples (to be added) |
-| [`tools/claude-integration/`](tools/claude-integration/README.md) | MCP / API / editor integration notes |
-| [`tools/playwright-automation/`](tools/playwright-automation/README.md) | Browser automation (taskdeck-aligned) |
-| [`tools/development-workflow/`](tools/development-workflow/README.md) | Read → plan → fix → test helpers |
-| [`templates/project-starters/`](templates/project-starters/README.md) | Boilerplate for common tasks |
-| [`templates/workshop-exercises/`](templates/workshop-exercises/README.md) | Guided exercises |
-| [`resources/awesome-claude-code/`](resources/awesome-claude-code/README.md) | Curated external links |
-| [`resources/seal-integration/`](resources/seal-integration/README.md) | SEAL lab integration pointers |
-| [`.github/workflows/`](.github/workflows/repo-structure.yml) | CI (structure check for now) |
-| [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) | Issue templates |
-| [`.github/templates/`](.github/templates/README.md) | Supplementary template drafts |
+| [`beginner-track/`](beginner-track/README.md) | Ordered learning path |
+| [`claude-templates/`](claude-templates/README.md) | `CLAUDE.md` for TypeScript, Next.js, Python, infra + SEAL variants |
+| [`slash-commands/`](slash-commands/README.md) | `/plan`, `/analyze`, `/fix`, `/review`, `/test`, … |
+| [`hooks/`](hooks/README.md) | Format, lint, test, git-safety automation |
+| [`workflows/`](workflows/README.md) | Plan-first, git, debugging, PR, commits, exploration |
+| [`skills/`](skills/README.md) | Beginner-safe agent skills |
+| [`playwright/`](playwright/README.md) | Browser tests (taskdeck-aligned) |
+| [`examples/`](examples/README.md) | Workshop exercises (CRUD, fix test, PR review, …) |
+| [`workshop-materials/`](workshop-materials/README.md) | Session map for facilitators |
+| [`taskdeck-integrations/`](taskdeck-integrations/README.md) | taskdeck pointers |
+| [`dashboard-integrations/`](dashboard-integrations/README.md) | dashboard-website-2025 pointers |
+| [`github-actions/`](github-actions/README.md) | Playwright CI + repo health templates |
+| [`starter-projects/`](starter-projects/README.md) | Minimal boilerplates |
+| [`docs/workshops/`](docs/workshops/README.md) | 8-module curriculum |
+| [`docs/knowledge-guides/`](docs/knowledge-guides/README.md) | Prompting, context, planning |
+| [`docs/security/`](docs/security/README.md) | Command safety, secrets, approvals |
+| [`docs/output-styles/`](docs/output-styles/README.md) | Concise, teaching, reviewer modes |
+| [`resources/awesome-claude-code/PICKS.md`](resources/awesome-claude-code/PICKS.md) | What we imported vs upstream |
+
+### Legacy / supporting paths
+
+| Path | Purpose |
+| --- | --- |
+| [`docs/best-practices/`](docs/best-practices/README.md) | Core methodology |
+| [`tools/`](tools/claude-integration/README.md) | Integration notes (MCP, workflow) |
+| [`templates/`](templates/project-starters/README.md) | Starters and exercises |
+| [`resources/seal-integration/`](resources/seal-integration/README.md) | SEAL infra links |
+
+## Developer tooling
+
+```bash
+make help
+make hooks-install   # pre-commit
+make lint
+```
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`.pre-commit-config.yaml`](.pre-commit-config.yaml).
+
+## Using without cloning
+
+Browse on GitHub; copy templates and commands into your own project when ready.
+
+## License
+
+Educational use within SEAL; see repository license file when added.

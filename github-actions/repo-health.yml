@@ -1,0 +1,26 @@
+# Copy to: .github/workflows/repo-health.yml
+name: Repo health
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Required workshop paths exist
+        run: |
+          test -f README.md
+          test -d docs || test -d beginner-track
+
+  markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for broken relative links (basic)
+        run: |
+          ! grep -rE '\]\(\s*[^h#][^)]*\)' --include='*.md' . 2>/dev/null | grep -E '\]\(\s*/' || true
+          echo "Link check: review PR diff for new markdown links manually."

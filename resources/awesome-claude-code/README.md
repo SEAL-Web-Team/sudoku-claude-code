@@ -2,4 +2,10 @@
 
 External index: [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
 
-Use that list as the master catalogue. For a short Sudoku-oriented subset (workflows, hooks, beginner tips), see team notes or future `PICKS.md` in this folder.
+## Sudoku subset
+
+**Start here:** [`PICKS.md`](PICKS.md) — what we vendored into this repo vs what to browse later.
+
+**Beginner path:** [`beginner-track/README.md`](../../beginner-track/README.md)
+
+We do not mirror the full upstream repository. Import patterns, not the entire ecosystem.
