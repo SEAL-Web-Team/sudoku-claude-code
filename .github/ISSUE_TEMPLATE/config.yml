@@ -6,3 +6,6 @@ contact_links:
   - name: Awesome Claude Code (upstream)
     url: https://github.com/hesreallyhim/awesome-claude-code
     about: Full community catalogue (advanced)
+  - name: gstack (upstream)
+    url: https://github.com/garrytan/gstack
+    about: Full sprint skills — review, QA, ship (advanced)

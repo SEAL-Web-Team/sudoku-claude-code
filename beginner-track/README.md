@@ -12,6 +12,7 @@ Follow this order on your first week. Each step maps to workshop modules and cop
 | 6 | Run a browser test | [`playwright/`](../playwright/README.md) |
 | 7 | Try a guided example | [`examples/`](../examples/README.md) |
 | 8 | Contribute with a PR | [`workflows/pr-review.md`](../workflows/pr-review.md) |
+| 9 | Sprint habits (optional week 2) | [`docs/knowledge-guides/sprint-loop.md`](../docs/knowledge-guides/sprint-loop.md) |
 
 ## Quest loop (what reviewers expect)
 
@@ -25,4 +26,4 @@ Use `/plan` before coding, `/test` before opening a PR, and `/review` on your ow
 - Production deployment pipelines
 - Advanced security audits
 
-See [`resources/awesome-claude-code/PICKS.md`](../resources/awesome-claude-code/PICKS.md) for the full upstream catalogue when you are ready to go deeper.
+See [`resources/awesome-claude-code/PICKS.md`](../resources/awesome-claude-code/PICKS.md) and [`resources/gstack/PICKS.md`](../resources/gstack/PICKS.md) when you are ready to go deeper.

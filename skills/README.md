@@ -13,5 +13,6 @@ Curated skills for Sudoku students. Copy a folder into your project `.cursor/ski
 | [documentation](documentation/SKILL.md) | README and tutorial writing |
 | [architecture-explainer](architecture-explainer/SKILL.md) | High-level system maps |
 | [onboarding-assistant](onboarding-assistant/SKILL.md) | First-day repo orientation |
+| [product-thinking](product-thinking/SKILL.md) | Clarify scope before new features (gstack office-hours lite) |
 
-We intentionally omit multi-agent swarm orchestration from the beginner track.
+We intentionally omit multi-agent swarm orchestration from the beginner track. Full gstack skills: [resources/gstack/PICKS.md](../resources/gstack/PICKS.md).

@@ -10,5 +10,5 @@ Step-by-step tutorials for Sudoku SEAL workshops. Modules follow the quest bluep
 | [04 – Planning and Implementation](04-planning-and-implementation.md) | Small plans, small changes |
 | [05 – Testing and Iteration](05-testing-and-iteration.md) | Prove behavior after edits |
 | [06 – SEAL Tool Integration](06-seal-tool-integration.md) | taskdeck, dashboards, lab conventions |
-| [07 – Community Best Practices](07-community-best-practices.md) | Awesome Claude Code and guardrails |
+| [07 – Community Best Practices](07-community-best-practices.md) | Awesome Claude Code, gstack sprint habits, guardrails |
 | [08 – Contributing to SEAL Projects](08-contributing-to-seal-projects.md) | PRs, review, and adoption |

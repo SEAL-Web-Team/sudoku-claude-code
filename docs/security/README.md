@@ -10,4 +10,6 @@ Students are new to tooling — these rules protect you and SEAL.
 | [tool-auditing.md](tool-auditing.md) | Knowing what Claude ran |
 | [sandboxing.md](sandboxing.md) | Limits of automation |
 
+Workflow: [safety-mode](../../workflows/safety-mode.md) (careful + scope lock).
+
 Hooks: [`hooks/scripts/git-safety.sh`](../../hooks/scripts/git-safety.sh).

@@ -20,6 +20,8 @@ Welcome to the SEAL Sudoku Claude Code workshop repository.
 
 Read → plan → fix → test. Use `/plan` and `/test` until it is habit.
 
+Week 2+: [sprint loop](knowledge-guides/sprint-loop.md) (review → ship → docs) and [gstack picks](../resources/gstack/PICKS.md).
+
 ## Help
 
 - Stuck on errors: [workflows/ai-debugging.md](../workflows/ai-debugging.md)

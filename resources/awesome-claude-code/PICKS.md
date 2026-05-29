@@ -33,4 +33,8 @@ Curated subset for beginners. Full index: [hesreallyhim/awesome-claude-code](htt
 - [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips) — session tips, status line (advanced)
 - [Anthropic Claude Code docs](https://docs.anthropic.com/en/docs/claude-code) — authoritative
 
+## Related: gstack (sprint workflows)
+
+Claude **tooling** lives in Awesome Claude Code; **sprint habits** (review, QA, ship) are curated from [gstack](../gstack/PICKS.md).
+
 Add new picks via PR with one paragraph on why it is beginner-safe.

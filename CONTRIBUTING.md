@@ -4,7 +4,7 @@ Thank you for helping Sudoku students learn Claude Code workflows.
 
 ## Who this is for
 
-Beginner-friendly changes only in the default track. Advanced tooling belongs in clearly labeled sections or links to upstream Awesome Claude Code.
+Beginner-friendly changes only in the default track. Advanced tooling belongs in clearly labeled sections or links to upstream [Awesome Claude Code](resources/awesome-claude-code/PICKS.md) or [gstack](resources/gstack/PICKS.md).
 
 ## Getting started
 

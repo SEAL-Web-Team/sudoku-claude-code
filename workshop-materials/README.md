@@ -12,7 +12,7 @@ Facilitator and student materials for the 8-module Sudoku Claude Code workshop.
 | 4 | [04 – Planning](../docs/workshops/04-planning-and-implementation.md) | [01-build-crud-app](../examples/01-build-crud-app/README.md) |
 | 5 | [05 – Testing](../docs/workshops/05-testing-and-iteration.md) | [02-fix-broken-test](../examples/02-fix-broken-test/README.md) |
 | 6 | [06 – SEAL tools](../docs/workshops/06-seal-tool-integration.md) | [05-automate-browser-workflow](../examples/05-automate-browser-workflow/README.md) |
-| 7 | [07 – Community](../docs/workshops/07-community-best-practices.md) | [PICKS.md](../resources/awesome-claude-code/PICKS.md) |
+| 7 | [07 – Community](../docs/workshops/07-community-best-practices.md) | [ACC PICKS](../resources/awesome-claude-code/PICKS.md) + [gstack PICKS](../resources/gstack/PICKS.md) |
 | 8 | [08 – Contributing](../docs/workshops/08-contributing-to-seal-projects.md) | [06-review-pr-with-claude](../examples/06-review-pr-with-claude/README.md) |
 
 ## Facilitator checklist

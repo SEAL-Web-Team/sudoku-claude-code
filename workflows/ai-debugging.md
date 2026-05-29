@@ -23,3 +23,6 @@ Files I think are involved: ...
 
 - Do not paste secrets, tokens, or private URLs into chats.
 - Prefer fixing root cause over silencing errors.
+- After three failed fix attempts, stop and hand off — see [debugging skill](../skills/debugging/SKILL.md) (gstack investigate lite).
+
+For scoped debugging on shared branches, use [safety-mode.md](safety-mode.md).

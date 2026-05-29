@@ -16,3 +16,5 @@ Understand how CI/CD connects to deployment — not production deploy on day one
 You can draw: push → CI → artifact → deploy, and name what runs at each step.
 
 Full production deploy is out of scope for week one; focus on **test in CI**.
+
+Mentors using full [gstack](https://github.com/garrytan/gstack): `/setup-deploy` and `/land-and-deploy` — see [`resources/gstack/PICKS.md`](../../resources/gstack/PICKS.md).

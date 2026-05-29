@@ -22,7 +22,7 @@ Use [`slash-commands/`](slash-commands/README.md): `/plan`, `/fix`, `/test`, `/r
 
 ## Repository layout (SEAL-approved beginner path)
 
-Curated from [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) — not a full mirror.
+Curated from [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) and [gstack](https://github.com/garrytan/gstack) — not full mirrors.
 
 | Path | Purpose |
 | --- | --- |
@@ -30,7 +30,7 @@ Curated from [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claud
 | [`claude-templates/`](claude-templates/README.md) | `CLAUDE.md` for TypeScript, Next.js, Python, infra + SEAL variants |
 | [`slash-commands/`](slash-commands/README.md) | `/plan`, `/analyze`, `/fix`, `/review`, `/test`, … |
 | [`hooks/`](hooks/README.md) | Format, lint, test, git-safety automation |
-| [`workflows/`](workflows/README.md) | Plan-first, git, debugging, PR, commits, exploration |
+| [`workflows/`](workflows/README.md) | Plan-first, git, debugging, PR, ship, QA, docs, safety |
 | [`skills/`](skills/README.md) | Beginner-safe agent skills |
 | [`playwright/`](playwright/README.md) | Browser tests (taskdeck-aligned) |
 | [`examples/`](examples/README.md) | Workshop exercises (CRUD, fix test, PR review, …) |
@@ -43,7 +43,8 @@ Curated from [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claud
 | [`docs/knowledge-guides/`](docs/knowledge-guides/README.md) | Prompting, context, planning |
 | [`docs/security/`](docs/security/README.md) | Command safety, secrets, approvals |
 | [`docs/output-styles/`](docs/output-styles/README.md) | Concise, teaching, reviewer modes |
-| [`resources/awesome-claude-code/PICKS.md`](resources/awesome-claude-code/PICKS.md) | What we imported vs upstream |
+| [`resources/awesome-claude-code/PICKS.md`](resources/awesome-claude-code/PICKS.md) | Claude Code tooling picks |
+| [`resources/gstack/PICKS.md`](resources/gstack/PICKS.md) | Sprint workflow picks (review, QA, ship) |
 
 ### Legacy / supporting paths
 
