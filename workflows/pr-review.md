@@ -11,7 +11,8 @@
 ## Self-review with Claude
 
 1. Run `/review` on your branch diff.
-2. Use [review-checklist](../docs/best-practices/review-checklist.md).
+2. If CI failed, run `/gha` with the Actions run URL.
+3. Use [review-checklist](../docs/best-practices/review-checklist.md).
 3. Address critical and major items.
 4. Complete [ship-checklist](ship-checklist.md).
 5. Request human review from task reviewer (Max / Blake per quest).

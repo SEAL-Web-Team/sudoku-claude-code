@@ -9,7 +9,7 @@ Copy **one** template into the root of your project as `CLAUDE.md`. Claude Code 
 | [`python/CLAUDE.md`](python/CLAUDE.md) | Python scripts or APIs |
 | [`infrastructure/CLAUDE.md`](infrastructure/CLAUDE.md) | CI, hooks, DevOps |
 | [`CLAUDE.SEAL.md`](CLAUDE.SEAL.md) | Any SEAL lab project |
-| [`CLAUDE.taskdeck.md`](CLAUDE.taskdeck.md) | taskdeck automation work |
-| [`CLAUDE.dashboard.md`](CLAUDE.dashboard.md) | dashboard-website-2025 work |
+| [`CLAUDE.taskdeck.md`](CLAUDE.taskdeck.md) | TaskDeck (runtime, Quests, Google, browser agent) |
+| [`CLAUDE.dashboard.md`](CLAUDE.dashboard.md) | dashboard-website-2025 (Next.js member dashboard) |
 
 Adapt paths, test commands, and links before committing. Never paste API keys into `CLAUDE.md`.

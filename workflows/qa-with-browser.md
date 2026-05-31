@@ -7,8 +7,10 @@ Pair with [`playwright/`](../playwright/README.md) for tests you keep in CI.
 ## When
 
 - UI feature shipped or bug fix touches the frontend
-- taskdeck or dashboard integration exercise
+- Dashboard integration exercise, or browser **tests** for an app you own
 - Before you say "it works on my machine" in a PR
+
+For taskdeck's live browser **agent** (not test specs), see [`taskdeck-integrations/`](../taskdeck-integrations/README.md).
 
 ## Steps
 

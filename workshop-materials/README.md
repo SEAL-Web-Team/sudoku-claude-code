@@ -1,6 +1,6 @@
 # Workshop materials
 
-Facilitator and student materials for the 8-module Sudoku Claude Code workshop.
+Facilitator and student materials for the 8-module Sudoku Claude Code workshop. All modules are **facilitator-ready** (objectives, timed activities, done-when criteria).
 
 ## Student path
 
@@ -22,6 +22,6 @@ Facilitator and student materials for the 8-module Sudoku Claude Code workshop.
 - [ ] Hooks: git-safety + pre-commit demonstrated once
 - [ ] No secrets in shared screen shares
 
-## Exercises archive
+## Cohort-specific material
 
-[`templates/workshop-exercises/`](../templates/workshop-exercises/README.md) — add cohort-specific copies here.
+Add optional facilitator notes or exercise variants under [`examples/`](examples/README.md) or in your workshop branch — the 8 modules and examples are the canonical curriculum.

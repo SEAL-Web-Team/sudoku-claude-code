@@ -1,13 +1,23 @@
 # Playwright (workshop)
 
-Browser testing aligned with **taskdeck** patterns. Students learn stable UI automation before touching production taskdeck code.
+Browser **testing** with `@playwright/test` — specs, assertions, CI. This is how students learn stable UI automation before contributing to SEAL apps.
+
+## How this relates to taskdeck
+
+TaskDeck uses **`playwright-core`** as a **runtime browser agent** (Claude drives Chrome via CDP; `npm run browser:agent`). TaskDeck has **no** `.spec.ts` files or `playwright.config` in its repo.
+
+| | This folder | taskdeck `src/browser/` |
+| --- | --- | --- |
+| Goal | Regression tests you run in CI | Live browser control for the AI agent |
+| Run with | `npx playwright test` | `npm run browser:agent` (inside taskdeck) |
+
+Selector habits transfer (`getByRole`, stable locators). The tooling layer is different — see [`taskdeck-integrations/`](../taskdeck-integrations/README.md).
 
 ## Setup
 
 ```bash
 cd playwright
-npm init -y
-npm install -D @playwright/test
+npm install
 npx playwright install
 ```
 
@@ -27,6 +37,8 @@ npx playwright test
 npx playwright test --ui
 ```
 
+Point `baseURL` in config at your app (e.g. minimal-api on port 3000, dashboard staging — mentor-approved URL only).
+
 ## Practices
 
 - Prefer `getByRole` and `getByTestId`.
@@ -35,4 +47,5 @@ npx playwright test --ui
 
 ## SEAL
 
-When ready, compare with Playwright usage in the internal **taskdeck** repository.
+- **Module 6:** run specs here; study taskdeck's agent separately if you contribute to taskdeck.
+- **Dashboard / apps:** copy CI template into the app repo once tests exist.

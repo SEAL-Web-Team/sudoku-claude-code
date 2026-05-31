@@ -4,8 +4,8 @@
 
 This project is part of SEAL (Sudoku / Web Team). Prefer patterns from:
 
-- **taskdeck** – automation, Playwright, Claude integration
-- **dashboard-website-2025** – TypeScript / React dashboard
+- **taskdeck** – AI operator console (Quests, Google Workspace, Claude tools, browser agent)
+- **dashboard-website-2025** – member dashboard (Next.js, NextAuth, quests/tasks UI)
 - **SEAL-Web-Team** GitHub org conventions
 
 ## Quest workflow

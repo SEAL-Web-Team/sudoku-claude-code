@@ -6,7 +6,7 @@ Follow this order on your first week. Each step maps to workshop modules and cop
 | --- | --- | --- |
 | 1 | Understand the quest loop | [`docs/best-practices/workflow.md`](../docs/best-practices/workflow.md) |
 | 2 | Set up Claude + project rules | [`claude-templates/`](../claude-templates/README.md) → copy one `CLAUDE.md` into your project |
-| 3 | Learn slash commands | [`slash-commands/`](../slash-commands/README.md) → install into `.claude/commands/` |
+| 3 | Learn slash commands | [`slash-commands/`](../slash-commands/README.md) → install into `.claude/commands/`; skim [native commands](../docs/knowledge-guides/native-claude-code-commands.md) |
 | 4 | Enable safe automation | [`hooks/`](../hooks/README.md) |
 | 5 | Workshop module 1–3 | [`docs/workshops/`](../docs/workshops/README.md) |
 | 6 | Run a browser test | [`playwright/`](../playwright/README.md) |

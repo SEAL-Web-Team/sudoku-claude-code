@@ -21,8 +21,9 @@ jobs:
           for d in \
             docs/workshops docs/best-practices docs/examples \
             tools/claude-integration tools/playwright-automation tools/development-workflow \
-            templates/project-starters templates/workshop-exercises \
+            starter-projects/minimal-api \
             resources/awesome-claude-code resources/gstack resources/seal-integration \
+            dashboard-integrations taskdeck-integrations \
             .github/workflows .github/templates .github/ISSUE_TEMPLATE
           do
             test -d "$d" || { echo "Missing: $d"; exit 1; }

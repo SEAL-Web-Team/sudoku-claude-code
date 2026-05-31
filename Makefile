@@ -22,6 +22,7 @@ structure:
 	@test -d playwright
 	@test -d skills
 	@test -d resources/gstack
+	@test -d starter-projects
 	@echo "Workshop structure OK"
 
 test: structure

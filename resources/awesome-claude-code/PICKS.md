@@ -30,8 +30,10 @@ Curated subset for beginners. Full index: [hesreallyhim/awesome-claude-code](htt
 
 ## Community references (external)
 
-- [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips) — session tips, status line (advanced)
+- [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips) — session tips; install **dx plugin** for advanced handoff/clone helpers (week two+)
 - [Anthropic Claude Code docs](https://docs.anthropic.com/en/docs/claude-code) — authoritative
+
+Sudoku adapts a subset locally: [`/gha`](../../slash-commands/gha.md), [instruction layers](../../docs/knowledge-guides/instruction-layers.md), [native commands cheatsheet](../../docs/knowledge-guides/native-claude-code-commands.md).
 
 ## Related: gstack (sprint workflows)
 

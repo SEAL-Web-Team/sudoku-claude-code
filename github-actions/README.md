@@ -14,4 +14,5 @@ Store tokens in **GitHub Actions secrets**, never in YAML literals. Students: as
 ## Related
 
 - [`.github/workflows/`](../.github/workflows/) — CI for this workshop repo
-- [`docs/security/governance.md`](../docs/security/governance.md)
+- [`docs/security/secrets-management.md`](../docs/security/secrets-management.md)
+- [`slash-commands/gha.md`](../slash-commands/gha.md) — investigate failed runs with Claude

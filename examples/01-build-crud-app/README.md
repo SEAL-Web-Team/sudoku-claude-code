@@ -2,19 +2,38 @@
 
 ## Goal
 
-Add create/read/update/delete for one resource (e.g. "tasks") in a starter app.
+Extend the [minimal-api starter](../../starter-projects/minimal-api/README.md) with one new feature — plan first, then implement with tests.
+
+The starter already includes full CRUD and `?completed=` filtering. Pick **one** extension below.
+
+## Extension options (choose one)
+
+| Option | Feature | Hints |
+| --- | --- | --- |
+| A | `GET /items?q=search` | Filter titles by substring (case-insensitive) |
+| B | `PATCH /items/:id/complete` | Toggle or set `completed` without full PUT |
+| C | Title validation | Reject titles over 100 chars; return 400 |
 
 ## Steps
 
-1. `/plan` — list routes, model fields, and tests.
-2. Implement create + list first.
-3. Add update and delete.
-4. `/test` — run suite.
-5. `/summarize` — handoff note.
+1. `/plan` — list files to change, test cases, and definition of done.
+2. Implement **one** step from the plan; run `npm test`.
+3. Finish remaining steps; re-run tests after each.
+4. `/review` your diff.
+5. `/summarize` — handoff note if switching sessions.
 
 ## Done when
 
-- All CRUD operations work via UI or API
-- At least one automated test per operation
+- All existing tests still pass
+- New tests cover your feature
+- You can demo the feature with `curl` or REST client
 
-Use [`starter-projects/minimal-api`](../../starter-projects/minimal-api/README.md) as a base if you have no project yet.
+## Setup
+
+```bash
+cd starter-projects/minimal-api   # or your copied fork
+npm install
+npm test
+```
+
+Copy [`claude-templates/typescript/CLAUDE.md`](../../claude-templates/typescript/CLAUDE.md) to `CLAUDE.md` before starting.

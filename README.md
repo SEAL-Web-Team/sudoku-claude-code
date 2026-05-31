@@ -32,7 +32,7 @@ Curated from [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claud
 | [`hooks/`](hooks/README.md) | Format, lint, test, git-safety automation |
 | [`workflows/`](workflows/README.md) | Plan-first, git, debugging, PR, ship, QA, docs, safety |
 | [`skills/`](skills/README.md) | Beginner-safe agent skills |
-| [`playwright/`](playwright/README.md) | Browser tests (taskdeck-aligned) |
+| [`playwright/`](playwright/README.md) | Browser tests (`@playwright/test`) — separate from taskdeck's browser agent |
 | [`examples/`](examples/README.md) | Workshop exercises (CRUD, fix test, PR review, …) |
 | [`workshop-materials/`](workshop-materials/README.md) | Session map for facilitators |
 | [`taskdeck-integrations/`](taskdeck-integrations/README.md) | taskdeck pointers |
@@ -46,13 +46,13 @@ Curated from [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claud
 | [`resources/awesome-claude-code/PICKS.md`](resources/awesome-claude-code/PICKS.md) | Claude Code tooling picks |
 | [`resources/gstack/PICKS.md`](resources/gstack/PICKS.md) | Sprint workflow picks (review, QA, ship) |
 
-### Legacy / supporting paths
+### Supporting paths
 
 | Path | Purpose |
 | --- | --- |
 | [`docs/best-practices/`](docs/best-practices/README.md) | Core methodology |
-| [`tools/`](tools/claude-integration/README.md) | Integration notes (MCP, workflow) |
-| [`templates/`](templates/project-starters/README.md) | Starters and exercises |
+| [`tools/`](tools/claude-integration/README.md) | Integration notes (stub — expand later) |
+| [`starter-projects/`](starter-projects/README.md) | Runnable boilerplate (minimal-api) |
 | [`resources/seal-integration/`](resources/seal-integration/README.md) | SEAL infra links |
 
 ## Developer tooling

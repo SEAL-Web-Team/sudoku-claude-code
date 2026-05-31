@@ -1,6 +1,6 @@
 ---
 name: playwright
-description: Write and fix Playwright browser tests. Use for UI automation, regression tests, or taskdeck-style workflows.
+description: Write and fix Playwright browser tests (@playwright/test). Use for UI regression tests and CI — not taskdeck's runtime browser agent (see taskdeck-integrations).
 ---
 
 # Playwright

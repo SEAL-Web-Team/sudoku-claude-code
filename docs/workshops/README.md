@@ -1,6 +1,6 @@
 # Workshops
 
-Step-by-step tutorials for Sudoku SEAL workshops. Modules follow the quest blueprint; fill in objectives and exercises as content is developed.
+Step-by-step tutorials for Sudoku SEAL workshops. Modules follow the quest blueprint; each includes learning objectives, timed activities, and done-when criteria.
 
 | Module | Topic |
 | --- | --- |
@@ -9,6 +9,6 @@ Step-by-step tutorials for Sudoku SEAL workshops. Modules follow the quest bluep
 | [03 – Code Reading and Analysis](03-code-reading-and-analysis.md) | Navigate and understand unfamiliar code |
 | [04 – Planning and Implementation](04-planning-and-implementation.md) | Small plans, small changes |
 | [05 – Testing and Iteration](05-testing-and-iteration.md) | Prove behavior after edits |
-| [06 – SEAL Tool Integration](06-seal-tool-integration.md) | taskdeck, dashboards, lab conventions |
+| [06 – SEAL Tool Integration](06-seal-tool-integration.md) | taskdeck (operator console + Quests), dashboard, browser testing |
 | [07 – Community Best Practices](07-community-best-practices.md) | Awesome Claude Code, gstack sprint habits, guardrails |
 | [08 – Contributing to SEAL Projects](08-contributing-to-seal-projects.md) | PRs, review, and adoption |

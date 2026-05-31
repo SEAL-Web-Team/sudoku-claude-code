@@ -5,8 +5,22 @@ Hooks reinforce beginner habits: format, lint, test after edits, and git safety.
 ## Claude Code hooks
 
 1. Copy [`hooks.json.example`](hooks.json.example) to `.claude/hooks.json` in your project.
-2. Adjust script paths for your OS (bash vs PowerShell).
+2. Adjust script paths for your OS — see **Windows and WSL** below.
 3. Scripts live in [`scripts/`](scripts/) — make executable on Unix: `chmod +x hooks/scripts/*.sh`
+
+## Windows and WSL
+
+Hook scripts are **bash** (`.sh`). On Windows, use one of:
+
+| Option | Notes |
+| --- | --- |
+| **Git Bash** | Ships with [Git for Windows](https://git-scm.com/download/win). Run Claude Code from Git Bash so `bash hooks/scripts/...` resolves. |
+| **WSL** | Clone and run the project inside WSL (Ubuntu recommended). Best match for Linux/macOS facilitators' instructions. |
+| **Skip hooks** | Use [pre-commit](#pre-commit-all-contributors) only until you have bash available. |
+
+Claude Code on native Windows (PowerShell) will not run `.sh` hooks unless bash is on `PATH`. There are no PowerShell hook scripts in this repo yet — do not point `hooks.json` at `.sh` files from PowerShell without Git Bash/WSL.
+
+**Path tip:** In `.claude/hooks.json`, use paths relative to the project root (e.g. `bash hooks/scripts/git-safety.sh`). On WSL, open Claude Code from the Linux path to the repo (`/home/...`), not `C:\...`, to avoid mixed path issues.
 
 ## What each hook does
 

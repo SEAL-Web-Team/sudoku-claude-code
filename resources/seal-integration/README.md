@@ -4,8 +4,8 @@ Lab infrastructure referenced by the Sudoku Claude Code quest.
 
 | System | Workshop folder |
 | --- | --- |
-| **taskdeck** (Playwright, Claude) | [`taskdeck-integrations/`](../../taskdeck-integrations/README.md) |
-| **dashboard-website-2025** (TS/React) | [`dashboard-integrations/`](../../dashboard-integrations/README.md) |
+| **taskdeck** (operator console, Quests, Google + Claude) | [`taskdeck-integrations/`](../../taskdeck-integrations/README.md) |
+| **dashboard-website-2025** (Next.js member dashboard, Postgres + Sheets) | [`dashboard-integrations/`](../../dashboard-integrations/README.md) |
 | **artintel1120** | Account context — document only per team policy |
 
 ## Templates

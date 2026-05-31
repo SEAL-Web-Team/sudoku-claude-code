@@ -30,5 +30,8 @@ Copy into `.cursor/commands/` if your Cursor version supports project commands, 
 | [`explain.md`](explain.md) | Teach concepts in plain language |
 | [`commit.md`](commit.md) | Prepare a safe, conventional commit |
 | [`summarize.md`](summarize.md) | Session handoff for the next conversation |
+| [`gha.md`](gha.md) | Investigate a GitHub Actions failure (requires `gh`) |
 
-Adapted from patterns in [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code); simplified for beginners.
+Adapted from patterns in [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) and [claude-code-tips](https://github.com/ykdojo/claude-code-tips); simplified for beginners.
+
+See also [native Claude Code commands](../docs/knowledge-guides/native-claude-code-commands.md) (built-in `/`, plan mode, `/fork`).

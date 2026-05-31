@@ -1,6 +1,6 @@
 # Workshop 7 – Community Best Practices
 
-**Status:** Draft (facilitator-ready outline).
+**Status:** Facilitator-ready.
 
 ## Learning objectives
 
@@ -19,8 +19,10 @@
 ### Part A — Awesome Claude Code (30 min)
 
 1. Walk [`resources/awesome-claude-code/PICKS.md`](../../resources/awesome-claude-code/PICKS.md): what is **in** Sudoku vs upstream only.
-2. Demo one slash command students have not used yet (`/summarize` or `/refactor` on a toy diff).
-3. Discuss: why we do not mirror entire external repos into the workshop.
+2. Walk [instruction-layers.md](../knowledge-guides/instruction-layers.md) — where CLAUDE.md, skills, commands, and plugins fit.
+3. Demo one slash command students have not used yet (`/summarize`, `/gha` on a failed CI link, or `/refactor` on a toy diff).
+4. Optional: `npx cc-safe .` — see [tool-auditing.md](../security/tool-auditing.md).
+5. Discuss: why we do not mirror entire external repos into the workshop.
 
 ### Part B — gstack sprint habits (40 min)
 
